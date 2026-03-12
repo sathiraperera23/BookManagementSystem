@@ -1,0 +1,372 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\BookManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|c:\\projects\\bookmanagement\\bookmanagement.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|solutionrelative:bookmanagement.infrastructure\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|c:\\projects\\bookmanagement\\bookmanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|solutionrelative:bookmanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|c:\\projects\\bookmanagement\\bookmanagement.domain\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|solutionrelative:bookmanagement.domain\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|c:\\projects\\bookmanagement\\bookmanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|solutionrelative:bookmanagement.application\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|c:\\projects\\bookmanagement\\bookmanagement.application\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|solutionrelative:bookmanagement.application\\interfaces\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|c:\\projects\\bookmanagement\\bookmanagement.infrastructure\\bookmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A428EEB9-CE07-4DC4-C069-8FC5BC11C10D}|BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj|solutionrelative:bookmanagement.infrastructure\\bookmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|c:\\projects\\bookmanagement\\bookmanagement.application\\bookmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|solutionrelative:bookmanagement.application\\bookmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\BookManagement\\BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\bookmanagement.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\bookmanagement.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|c:\\projects\\bookmanagement\\bookmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CDE6DD7-AA50-818D-3B8E-BB1FBFD72AE0}|BookManagement\\BookManagement.csproj|solutionrelative:bookmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|c:\\projects\\bookmanagement\\bookmanagement.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|solutionrelative:bookmanagement.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|c:\\projects\\bookmanagement\\bookmanagement.domain\\bookmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C4C12580-9604-9B78-C707-4E0B878D929A}|BookManagement.Domain\\BookManagement.Domain.csproj|solutionrelative:bookmanagement.domain\\bookmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|c:\\projects\\bookmanagement\\bookmanagement.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1C28B1-FA2A-B750-66A5-49DD6F0763B1}|BookManagement.Application\\BookManagement.Application.csproj|solutionrelative:bookmanagement.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "BookManagement.Infrastructure\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:01:43.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookManagement\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:02:32.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Application\\Interfaces\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookManagement.Application\\Interfaces\\IBookRepository.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Application\\Interfaces\\IBookRepository.cs",
+              "RelativeToolTip": "BookManagement.Application\\Interfaces\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:00:35.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Application\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "BookManagement.Application\\Services\\BookService.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Application\\Services\\BookService.cs",
+              "RelativeToolTip": "BookManagement.Application\\Services\\BookService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:01:02.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Domain\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "BookManagement.Domain\\Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Domain\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "BookManagement.Domain\\Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T02:56:07.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\Program.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Program.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\Program.cs",
+              "RelativeToolTip": "BookManagement\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T03:08:45.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "BookManagement.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T02:47:09.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookManagement.Infrastructure.csproj.nuget.g.props",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props",
+              "RelativeToolTip": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.props",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-12T06:29:00.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookManagement.Application.csproj",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Application\\BookManagement.Application.csproj",
+              "RelativeDocumentMoniker": "BookManagement.Application\\BookManagement.Application.csproj",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Application\\BookManagement.Application.csproj",
+              "RelativeToolTip": "BookManagement.Application\\BookManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-12T04:21:17.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookManagement.Infrastructure.csproj.nuget.g.targets",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets",
+              "RelativeToolTip": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.g.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-12T06:29:01.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj",
+              "RelativeToolTip": "BookManagement.Infrastructure\\BookManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-12T04:30:18.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookManagement.Infrastructure.csproj.nuget.dgspec.json",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json",
+              "RelativeDocumentMoniker": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json",
+              "RelativeToolTip": "BookManagement.Infrastructure\\obj\\BookManagement.Infrastructure.csproj.nuget.dgspec.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T06:28:56.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookManagement.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\BookManagement.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "BookManagement\\BookManagement.csproj.Backup.tmp",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\BookManagement.csproj.Backup.tmp",
+              "RelativeToolTip": "BookManagement\\BookManagement.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-12T03:41:38.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "BookManagement\\appsettings.json",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\appsettings.json",
+              "RelativeToolTip": "BookManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T03:22:54.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "BookManagement\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "BookManagement\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T05:46:56.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "BookManagement\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:35:06.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BookManagement\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BookManagement\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-12T05:28:27.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "BookManagement.Domain\\Class1.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Domain\\Class1.cs",
+              "RelativeToolTip": "BookManagement.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T02:46:01.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\10.0.103\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAEoAAAAAAAAAAABRwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-12T03:52:58.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookManagement.Domain.csproj",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Domain\\BookManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "BookManagement.Domain\\BookManagement.Domain.csproj",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Domain\\BookManagement.Domain.csproj",
+              "RelativeToolTip": "BookManagement.Domain\\BookManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-12T02:55:19.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Projects\\BookManagement\\BookManagement.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "BookManagement.Application\\Class1.cs",
+              "ToolTip": "C:\\Projects\\BookManagement\\BookManagement.Application\\Class1.cs",
+              "RelativeToolTip": "BookManagement.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T02:46:30.291Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

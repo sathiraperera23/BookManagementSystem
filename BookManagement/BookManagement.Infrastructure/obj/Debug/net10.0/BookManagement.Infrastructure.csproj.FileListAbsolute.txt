@@ -1,0 +1,15 @@
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Infrastructure.deps.json
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Infrastructure.dll
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Infrastructure.pdb
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Application.dll
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Domain.dll
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Domain.pdb
+C:\Projects\BookManagement\BookManagement.Infrastructure\bin\Debug\net10.0\BookManagement.Application.pdb
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookManagement.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookMana.A332F634.Up2Date
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookManagement.Infrastructure.dll
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\refint\BookManagement.Infrastructure.dll
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\BookManagement.Infrastructure.pdb
+C:\Projects\BookManagement\BookManagement.Infrastructure\obj\Debug\net10.0\ref\BookManagement.Infrastructure.dll
