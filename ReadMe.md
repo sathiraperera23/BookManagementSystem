@@ -57,7 +57,7 @@ PUT /api/book/{id} → Update book
 
 DELETE /api/book/{id} → Delete book
 
-Frontend (Angular)
+#Frontend (Angular)
 
 Open a terminal and navigate to the frontend folder:
 
