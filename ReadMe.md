@@ -1,93 +1,106 @@
-# Book Management Application
+# 📚 Book Management Application
 
-This repository contains both the **backend** (ASP.NET Web API) and **frontend** (Angular) for the Book Management application.
+> A full-stack application for managing your book collection — built with **ASP.NET Web API** and **Angular**.
 
-Users can **add, view, update, and delete books**. The backend provides a RESTful API, and the frontend consumes it using Angular.
+Users can seamlessly **add, view, update, and delete books** through a clean Angular frontend powered by a RESTful ASP.NET backend.
 
 ---
 
-## Project Structure
-
-
+## 🗂️ Project Structure
 BookManagement/
 │
-├── backend/ <-- ASP.NET backend
-│ ├── BookManagement.sln
-│ ├── BookManagement.Web/
-│ ├── BookManagement.Application/
-│ ├── BookManagement.Domain/
-│ └── BookManagement.Infrastructure/
+├── backend/                        # ASP.NET Web API
+│   ├── BookManagement.sln
+│   ├── BookManagement.Web/
+│   ├── BookManagement.Application/
+│   ├── BookManagement.Domain/
+│   └── BookManagement.Infrastructure/
 │
-└── frontend/ <-- Angular frontend
+└── frontend/                       # Angular Application
 ├── angular.json
 ├── package.json
-├── src/
-└── ...other Angular files
-
+└── src/
 
 ---
 
-## Backend (ASP.NET)
+## ⚙️ Getting Started
 
-1. Open the backend project in **Visual Studio** or **VS Code**.
-2. Navigate to the backend folder:
+### 🔧 Backend (ASP.NET)
 
+1. Open the project in **Visual Studio** or **VS Code**
+2. Navigate to the backend directory:
 ```bash
-cd backend/BookManagement.Web
+   cd backend/BookManagement.Web
+```
+3. Restore NuGet packages:
+```bash
+   dotnet restore
+```
+4. Start the API server:
+```bash
+   dotnet run
+```
 
-Restore NuGet packages:
+> The API will be available at `https://localhost:5001`
 
-dotnet restore
+---
 
-Run the backend:
+### 🌐 Frontend (Angular)
 
-dotnet run
+1. Navigate to the frontend directory:
+```bash
+   cd frontend
+```
+2. Install dependencies:
+```bash
+   npm install
+```
+3. Start the development server:
+```bash
+   ng serve
+```
 
-The API will start on https://localhost:5001 (or another port shown in console).
+> The app will be available at `http://localhost:4200`
+>
+> ⚠️ Make sure the backend is running at `https://localhost:5001` before launching the frontend.
 
-API Endpoints:
+---
 
-GET /api/book → Get all books
+## 🔌 API Reference
 
-GET /api/book/{id} → Get book by ID
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/book` | Retrieve all books |
+| `GET` | `/api/book/{id}` | Retrieve a book by ID |
+| `POST` | `/api/book` | Add a new book |
+| `PUT` | `/api/book/{id}` | Update an existing book |
+| `DELETE` | `/api/book/{id}` | Delete a book |
 
-POST /api/book → Add new book
+---
 
-PUT /api/book/{id} → Update book
+## ✨ Features
 
-DELETE /api/book/{id} → Delete book
+- 📖 View a list of all books
+- ➕ Add a new book
+- ✏️ Edit an existing book
+- 🗑️ Delete a book
 
-#Frontend (Angular)
+---
 
-Open a terminal and navigate to the frontend folder:
+## 🛠️ Configuration
 
-cd frontend
-
-Install dependencies:
-
-npm install
-
-Run the Angular app:
-
-ng serve
-
-The frontend will run on http://localhost:4200 by default.
-
-Make sure the backend is running at https://localhost:5001 for API calls.
-
-Notes
-
-The Angular frontend is configured to call the backend API at https://localhost:5001/api/book.
-If your backend runs on a different port, update the URL in frontend/src/app/services/book.service.ts:
-
+If your backend runs on a different port, update the API URL in:
+frontend/src/app/services/book.service.ts
+```typescript
 private apiUrl = 'https://localhost:5001/api/book';
+```
 
-Use the frontend to:
+---
 
-View the list of books
+## 🧰 Tech Stack
 
-Add a new book
-
-Edit an existing book
-
-Delete a book
+| Layer | Technology |
+|-------|------------|
+| Frontend | Angular |
+| Backend | ASP.NET Web API |
+| Language | TypeScript / C# |
