@@ -1,106 +1,223 @@
-# 📚 Book Management Application
+# Book Management System (Full Stack)
 
-> A full-stack application for managing your book collection — built with **ASP.NET Web API** and **Angular**.
+This repository contains a **full-stack Book Management System** built with:
 
-Users can seamlessly **add, view, update, and delete books** through a clean Angular frontend powered by a RESTful ASP.NET backend.
+* **Backend:** .NET Web API using Clean Architecture
+* **Frontend:** Angular
+* **Database:** PostgreSQL (or configured database)
+
+## book-management-frontend: Consists of the Angular Frontend
+## BookManagement: Consists of the .NET backend
+The application allows users to **create, view, update, and delete books**.
 
 ---
 
-## 🗂️ Project Structure
-BookManagement/
+# Project Structure
+
+```
+FullStack
 │
-├── backend/                        # ASP.NET Web API
-│   ├── BookManagement.sln
-│   ├── BookManagement.Web/
-│   ├── BookManagement.Application/
-│   ├── BookManagement.Domain/
-│   └── BookManagement.Infrastructure/
+├── BookManagement.sln                # .NET Solution
 │
-└── frontend/                       # Angular Application
-├── angular.json
-├── package.json
-└── src/
-
----
-
-## ⚙️ Getting Started
-
-### 🔧 Backend (ASP.NET)
-
-1. Open the project in **Visual Studio** or **VS Code**
-2. Navigate to the backend directory:
-```bash
-   cd backend/BookManagement.Web
-```
-3. Restore NuGet packages:
-```bash
-   dotnet restore
-```
-4. Start the API server:
-```bash
-   dotnet run
-```
-
-> The API will be available at `https://localhost:5001`
-
----
-
-### 🌐 Frontend (Angular)
-
-1. Navigate to the frontend directory:
-```bash
-   cd frontend
-```
-2. Install dependencies:
-```bash
-   npm install
-```
-3. Start the development server:
-```bash
-   ng serve
-```
-
-> The app will be available at `http://localhost:4200`
->
-> ⚠️ Make sure the backend is running at `https://localhost:5001` before launching the frontend.
-
----
-
-## 🔌 API Reference
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/api/book` | Retrieve all books |
-| `GET` | `/api/book/{id}` | Retrieve a book by ID |
-| `POST` | `/api/book` | Add a new book |
-| `PUT` | `/api/book/{id}` | Update an existing book |
-| `DELETE` | `/api/book/{id}` | Delete a book |
-
----
-
-## ✨ Features
-
-- 📖 View a list of all books
-- ➕ Add a new book
-- ✏️ Edit an existing book
-- 🗑️ Delete a book
-
----
-
-## 🛠️ Configuration
-
-If your backend runs on a different port, update the API URL in:
-frontend/src/app/services/book.service.ts
-```typescript
-private apiUrl = 'https://localhost:5001/api/book';
+├── BookManagement                    # Web API (Entry Point)
+│   ├── Controllers
+│   ├── Program.cs
+│   └── appsettings.json
+│
+├── BookManagement.Application        # Application Layer
+│   ├── Interfaces
+│   └── Services
+│
+├── BookManagement.Domain             # Domain Layer
+│   └── Entities
+│
+├── BookManagement.Infrastructure     # Infrastructure Layer
+│   └── Repositories
+│
+├── book-management-frontend          # Angular Frontend
+│
+└── README.md
 ```
 
 ---
 
-## 🧰 Tech Stack
+# Backend (ASP.NET Web API)
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | Angular |
-| Backend | ASP.NET Web API |
-| Language | TypeScript / C# |
+The backend follows a **Clean Architecture pattern** with the following layers:
+
+### Domain
+
+Contains the core business entities.
+
+Example:
+
+* `Book`
+
+### Application
+
+Contains:
+
+* Interfaces
+* Business logic
+* Services
+
+### Infrastructure
+
+Handles:
+
+* Data access
+* Repository implementations
+* Database communication
+
+### Web API
+
+Handles:
+
+* HTTP requests
+* Controllers
+* API routing
+
+---
+
+# API Endpoints
+
+Base URL:
+
+```
+http://localhost:5062/api/book
+```
+
+Example endpoints:
+
+| Method | Endpoint         | Description       |
+| ------ | ---------------- | ----------------- |
+| GET    | `/api/book`      | Get all books     |
+| GET    | `/api/book/{id}` | Get book by ID    |
+| POST   | `/api/book`      | Create a new book |
+| PUT    | `/api/book/{id}` | Update a book     |
+| DELETE | `/api/book/{id}` | Delete a book     |
+
+Example response:
+
+```
+[
+  {
+    "id": 2,
+    "title": "test2",
+    "author": "test",
+    "isbn": "test",
+    "publicationDate": "2026-03-19T00:00:00"
+  }
+]
+```
+
+---
+
+# Frontend (Angular)
+
+The frontend is built using **Angular** and communicates with the backend API.
+
+Features:
+
+* View all books
+* Add a new book
+* Edit a book
+* Delete a book
+
+The Angular service calls the backend using:
+
+```
+http://localhost:5062/api/book
+```
+
+Example service configuration:
+
+```
+private apiUrl = 'http://localhost:5062/api/book';
+```
+
+---
+
+# How to Run the Project
+
+## 1. Run Backend
+
+Navigate to the backend project folder (BookManagement) and run:
+
+```
+dotnet run
+```
+
+The API will start on:
+
+```
+http://localhost:5062
+```
+
+---
+
+## 2. Run Frontend
+
+Navigate to the Angular project folder:
+
+```
+cd book-management-frontend
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Start Angular:
+
+```
+ng serve
+```
+
+Frontend will run on:
+
+```
+http://localhost:4200
+```
+
+---
+
+# Technologies Used
+
+Backend:
+
+* .NET Web API
+* Clean Architecture
+* C#
+
+Frontend:
+
+* Angular
+* TypeScript
+* HTML / CSS
+
+Tools:
+
+* Git
+* GitHub
+* Visual Studio
+* VS Code
+
+---
+
+# Author
+
+Sathira
+
+---
+
+# Notes
+
+* Make sure the backend API is running before starting the Angular frontend.
+* The frontend communicates with the API using the configured base URL:
+
+```
+http://localhost:5062/api/book
+```
