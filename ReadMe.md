@@ -2,12 +2,12 @@
 
 This repository contains a **full-stack Book Management System** built with:
 
-* **Backend:** .NET Web API using Clean Architecture
-* **Frontend:** Angular
+* **Backend:** .NET Web API using Clean Architecture (BookManagement)
+* **Frontend:** Angular (book-management-frontend)
 * **Database:** PostgreSQL (or configured database)
 
-## book-management-frontend: Consists of the Angular Frontend
-## BookManagement: Consists of the .NET backend
+### book-management-frontend: Consists of the Angular Frontend
+### BookManagement: Consists of the .NET backend
 The application allows users to **create, view, update, and delete books**.
 
 ---
