@@ -4,10 +4,16 @@ This repository contains a **full-stack Book Management System** built with:
 
 * **Backend:** .NET Web API using Clean Architecture (BookManagement)
 * **Frontend:** Angular (book-management-frontend)
-* **Database:** PostgreSQL (or configured database)
+* **Database:** PostgreSQL
 
-### book-management-frontend: Consists of the Angular Frontend
-### BookManagement: Consists of the .NET backend
+### book-management-frontend
+
+Consists of the Angular frontend application.
+
+### BookManagement
+
+Consists of the .NET backend API built using Clean Architecture.
+
 The application allows users to **create, view, update, and delete books**.
 
 ---
@@ -113,6 +119,80 @@ Example response:
 
 ---
 
+# Database Setup (PostgreSQL)
+
+The backend uses **PostgreSQL** as the database.
+
+## 1. Create the Database
+
+Run the following SQL command in PostgreSQL:
+
+```sql
+CREATE DATABASE bookdb;
+```
+
+---
+
+## 2. Create the Books Table
+
+Run the following SQL script inside the `bookdb` database:
+
+```sql
+CREATE TABLE Books (
+    Id SERIAL PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    Author VARCHAR(255) NOT NULL,
+    Isbn VARCHAR(50) NOT NULL,
+    PublicationDate TIMESTAMP NOT NULL
+);
+```
+
+This table corresponds to the `Book` entity used in the backend:
+
+```csharp
+public class Book
+{
+    public int Id { get; set; }
+
+    public string Title { get; set; } = "";
+
+    public string Author { get; set; } = "";
+
+    public string Isbn { get; set; } = "";
+
+    public DateTime PublicationDate { get; set; }
+}
+```
+
+---
+
+# Configure Database Connection
+
+Update the connection string in:
+
+```
+BookManagement/appsettings.json
+```
+
+Example configuration:
+
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Host=localhost;Port=5432;Database=bookdb;Username=postgres;Password=yourpassword"
+  }
+}
+```
+
+Replace:
+
+* `Username`
+* `Password`
+
+with your PostgreSQL credentials.
+
+---
+
 # Frontend (Angular)
 
 The frontend is built using **Angular** and communicates with the backend API.
@@ -142,7 +222,7 @@ private apiUrl = 'http://localhost:5062/api/book';
 
 ## 1. Run Backend
 
-Navigate to the backend project folder (BookManagement) and run:
+Navigate to the backend project folder (`BookManagement`) and run:
 
 ```
 dotnet run
@@ -186,19 +266,23 @@ http://localhost:4200
 
 # Technologies Used
 
-Backend:
+### Backend
 
 * .NET Web API
 * Clean Architecture
 * C#
 
-Frontend:
+### Frontend
 
 * Angular
 * TypeScript
 * HTML / CSS
 
-Tools:
+### Database
+
+* PostgreSQL
+
+### Tools
 
 * Git
 * GitHub
